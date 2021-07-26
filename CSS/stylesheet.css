@@ -7,8 +7,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 160%;
 }
-
-header {
+/* Index page*/
+.homepage {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
     url('/Image/background\ image.jpg') no-repeat center / cover;
     height: 100vh; 
@@ -19,14 +19,6 @@ header {
     color: orange;
 
 }
-#navbar ul {
-    list-style: none;
-   // float: right;
-}
-/*
-#navbar ul li {
-    float: left;
-}   */
 
 #navbar ul li a {
     display: block;
@@ -39,20 +31,26 @@ header {
     display: flex;
     justify-content:space-between;
 } 
-#navbar ul {
+#navbar ul {   
     display: flex;
+    list-style: none;
+}
+#navbar ul li {
+    background: black;
+    border: black solid 1px;
+    margin: 0 10px;
+    transition-property: background;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
 }
 h1, .para1 {
     color: burlywood;
 }
-#navbar a:link, #intro a:hover {
-    color: white;
-}
-#navbar a:visited, #intro a:hover{
-    color: #8c8c8c;
-}
-#navbar a:hover, #intro a:hover  {
-    color: #f15a51;
+
+#navbar li:hover, #intro a:hover  {
+    background: #f15a51;
+    
+
 }
 #intro {
     padding-top: 150px;
@@ -78,3 +76,5 @@ h1, .para1 {
     color: white;
     background: #8c8c8cb6;
 }
+
+/* About page*/
