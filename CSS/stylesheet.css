@@ -21,30 +21,37 @@ header {
 }
 #navbar ul {
     list-style: none;
-    float: right;
+   // float: right;
 }
+/*
 #navbar ul li {
     float: left;
-}
+}   */
 
 #navbar ul li a {
     display: block;
-    padding: 0 20px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     color: white;
 }
-
+.flex-container{
+    display: flex;
+    justify-content:space-between;
+} 
+#navbar ul {
+    display: flex;
+}
 h1, .para1 {
     color: burlywood;
 }
-#navbar ul li a:link, #intro a:hover {
+#navbar a:link, #intro a:hover {
     color: white;
 }
-#navbar ul li a:visited, #intro a:hover{
+#navbar a:visited, #intro a:hover{
     color: #8c8c8c;
 }
-#navbar ul li a:hover, #intro a:hover  {
+#navbar a:hover, #intro a:hover  {
     color: #f15a51;
 }
 #intro {
