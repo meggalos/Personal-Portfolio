@@ -303,10 +303,12 @@ input, textarea {
  .work h2{
     color: black;
     margin-top: 1.2rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.7rem;}
 
 /* Pad view */
+
 @media screen and (max-width: 768px) {
+
     .homepage{
         flex-direction: column;
         justify-content: center;
@@ -343,7 +345,7 @@ input, textarea {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 15%;
         grid-gap: 2%;
-      }
+    }
       
       .one{
         grid-column: 1; 
