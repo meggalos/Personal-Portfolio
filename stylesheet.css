@@ -401,10 +401,9 @@ input, textarea {
     }
     #intro h1 {
         transform: scale(0.7);
-        padding-left: -20px;
         margin: 0;
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
+        white-space: normal;
     }
     
 .grid-container{
